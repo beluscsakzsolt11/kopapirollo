@@ -23,3 +23,6 @@ input.onGesture(Gesture.Shake, function () {
         basic.showIcon(IconNames.Scissors)
     }
 })
+input.onButtonPressed(Button.AB, function () {
+    basic.clearScreen()
+})
